@@ -13,3 +13,8 @@ GROUP BY Departments.DepartmentName;
 UPDATE Employees
 SET Salary = 5000
 WHERE EmployeeID = 20
+
+UPDATE Employees
+SET FirstName = 'Jakub', LastName = 'Baransky'
+WHERE EmployeeID = 1
+
